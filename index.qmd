@@ -16,7 +16,7 @@ description: "Applied economist at the European Commission's Joint Research Cent
 
 I am an applied economist working where development economics meets the economics of innovation. I study how economies build new capabilities and change what they produce, and what this means for firms, workers and regions.
 
-My research follows three connected lines: structural change in sub-Saharan Africa, including the role of informal enterprises; the adoption of digital technologies, from mobile internet to cloud computing, and their effects on firms, skills and jobs; and economic complexity methods applied to EU industrial and technology policy. I have also worked on how teleworking changes the way people travel.
+My research follows three connected lines: the drivers of structural transformation and its distributional and environmental consequences; the adoption of digital technologies, from mobile internet to cloud computing, and their effects on firms, skills and jobs; and economic complexity methods applied to EU industrial and technology policy. I have also worked on how teleworking changes the way people travel.
 
 I work in the Economic Complexity Team of the JRC's Industrial Strategy, Skills and Technology Transfer unit. Before joining the JRC, I was a research fellow at UNU-MERIT in Maastricht and at the Enrico Fermi Research Centre in Rome. I hold a PhD in Science and Technology Policy Studies from SPRU, University of Sussex.
 
