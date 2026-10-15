@@ -1,0 +1,246 @@
+# Talks page. `group` decides the section: invited | organised | presented
+# Fields: when, title, detail, place, url (optional).
+
+# ---------------------------------------------------------------- Invited talks and lectures
+- group: invited
+  when: "2026"
+  title: "Twin Transition Skill Demand and Regional Productivity"
+  detail: "Online Job Advertisements: Evidence from the Data"
+  place: "Milan, IT"
+
+- group: invited
+  when: "2026"
+  title: "Skills Demand and Regional Productivity"
+  detail: "Seminar, Collegio Carlo Alberto, University of Turin"
+  place: "Turin, IT"
+
+- group: invited
+  when: "2026"
+  title: "Project Triple T: Tackling a Just Twin Transition"
+  detail: "Workshop discussant, Enrico Fermi Research Centre"
+  place: "Rome, IT"
+
+- group: invited
+  when: "2025"
+  title: "Assessing Technological Potential through Economic Complexity"
+  detail: "Development Group seminar, UNU-MERIT"
+  place: "Online"
+
+- group: invited
+  when: "2025"
+  title: "Scaling Up to the Cloud: Cloud Technology Use and Growth Rates in Small and Large Firms"
+  detail: "Works-in-Progress Seminar, The Productivity Institute"
+  place: "Online"
+
+- group: invited
+  when: "2025"
+  title: "Skills Demand and Regional Productivity"
+  detail: "Online seminar series, The Productivity Institute"
+  place: "Online"
+
+- group: invited
+  when: "2024"
+  title: "The Rebound Effects of Teleworking"
+  detail: "The Future of Teleworking: The European Perspective, workshop at the London School of Economics"
+  place: "London, UK"
+
+- group: invited
+  when: "2024"
+  title: "Structural Change, Informality and Innovation in Sub-Saharan Africa"
+  detail: "Guest lecture, SPRU, University of Sussex Business School"
+  place: "Brighton, UK"
+
+- group: invited
+  when: "2024"
+  title: "What Is Economic Complexity?"
+  detail: "Guest lecture, ITU Summer School “Catalysing the Digital Future: Digital Transformation for Sustainability”, UNU-MERIT"
+  place: "Maastricht, NL"
+
+- group: invited
+  when: "2023"
+  title: "On the Shoulders of Giant(s): Charting the Future of Evolutionary Economics"
+  detail: "Panellist, conference in honour of Professor Giovanni Dosi, Sant’Anna School of Advanced Studies"
+  place: "Pisa, IT"
+
+- group: invited
+  when: "2023"
+  title: "Structural Change in the Formal and Informal Sectors in Sub-Saharan Africa"
+  detail: "Guest lecture, SPRU, University of Sussex Business School"
+  place: "Brighton, UK"
+
+- group: invited
+  when: "2022"
+  title: "Mobile Internet, Skills and Structural Transformation in Rwanda"
+  detail: "Smart Specialisation for Innovation-Led Transformation in Rwanda, workshop by the JRC and Rwanda Polytechnic"
+  place: "Online"
+
+- group: invited
+  when: "2022"
+  title: "Mobile Internet, Skills and Structural Transformation in Rwanda"
+  detail: "Wednesday Seminar Series, SPRU, University of Sussex"
+  place: "Brighton, UK"
+
+- group: invited
+  when: "2022"
+  title: "Inclusione digitale e trasformazione strutturale in Africa subsahariana"
+  detail: "Seminar, University of Bari"
+  place: "Bari, IT"
+
+- group: invited
+  when: "2022"
+  title: "Digital and Ethnic Inclusion and Micro Structural Change: Evidence from Nigeria"
+  detail: "Seminar, Catholic University of the Sacred Heart"
+  place: "Milan, IT"
+
+- group: invited
+  when: "2021"
+  title: "Structural Change, Innovation and Informality in Africa"
+  detail: "Guest lecture, University of Pavia"
+  place: "Online"
+
+- group: invited
+  when: "2020"
+  title: "Formal and Informal Structural Change in Ghana: A Network Approach"
+  detail: "Wednesday Seminar Series, SPRU, University of Sussex"
+  place: "Online"
+
+- group: invited
+  when: "2016"
+  title: "Poverty in Mozambique: An Analysis with Structural Equation Models"
+  detail: "Postgraduate seminar, Lisbon School of Economics and Management"
+  place: "Lisbon, PT"
+
+# ---------------------------------------------------------------- Events organised
+- group: organised
+  when: "2026"
+  title: "3rd REsearch, SKills, Innovation and Labour Lab (RESKILL) Workshop"
+  detail: "Joint Research Centre, European Commission"
+  place: "Seville, ES"
+
+- group: organised
+  when: "2025"
+  title: "2nd RESKILL Workshop"
+  detail: "University of Ferrara"
+  place: "Ferrara, IT"
+
+- group: organised
+  when: "2025"
+  title: "10th CONCORDi Conference on Corporate R&D and Innovation"
+  detail: "Joint Research Centre, European Commission"
+  place: "Seville, ES"
+
+- group: organised
+  when: "2025"
+  title: "3rd Economic Fitness and Complexity Summer School"
+  detail: "Enrico Fermi Research Centre"
+  place: "Rome, IT"
+
+- group: organised
+  when: "2024"
+  title: "2nd Economic Fitness and Complexity Summer School"
+  detail: "UNU-MERIT"
+  place: "Maastricht, NL"
+
+- group: organised
+  when: "2023"
+  title: "1st Economic Fitness and Complexity Spring School"
+  detail: "Enrico Fermi Research Centre, UNU-MERIT and Young Scholars Initiative"
+  place: "Rome, IT"
+
+- group: organised
+  when: "2022"
+  title: "The Future of Production: Digitalization, Global Value Chains, Green Transition"
+  detail: "Workshop, Young Scholars Initiative (INET) and Sant’Anna School of Advanced Studies"
+  place: "Pisa, IT"
+
+- group: organised
+  when: "2021"
+  title: "Sectoral Patterns of Innovation and the Evolution of Industrial Structure"
+  detail: "Young Scholar special session, International Schumpeter Society Conference at LUISS"
+  place: "Online"
+
+- group: organised
+  when: "2021"
+  title: "The Development Black Box: Capabilities, Structural Change and Innovation"
+  detail: "Workshop, Young Scholars Initiative (INET) and Sant’Anna School of Advanced Studies"
+  place: "Pisa, IT"
+
+- group: organised
+  when: "2019"
+  title: "Artificial Intelligence, Robotisation and Digital Transformations"
+  detail: "PhD workshop, Young Scholars Initiative and EMAEE"
+  place: "Brighton, UK"
+
+- group: organised
+  when: "2018"
+  title: "24th SPRU PhD Forum: Science, Technology and Innovation for a World in Transition"
+  detail: "PhD conference, SPRU, University of Sussex"
+  place: "Brighton, UK"
+
+- group: organised
+  when: "2017"
+  title: "Imagining Structural Transformations in Africa"
+  detail: "Colloquium, Institute of Development Studies"
+  place: "Brighton, UK"
+
+- group: organised
+  when: "2017"
+  title: "INET-YSI Festival for New Economic Thinking"
+  detail: "Inequality Working Group sessions"
+  place: "Edinburgh, UK"
+
+# ---------------------------------------------------------------- Recent conference presentations
+- group: presented
+  when: "2026"
+  title: "International Economic Association World Congress"
+  place: "Belgrade, RS"
+
+- group: presented
+  when: "2026"
+  title: "Regional Studies Association Conference"
+  place: "Gothenburg, SE"
+
+- group: presented
+  when: "2026"
+  title: "Cedefop and Eurostat Research Conference"
+  place: "Thessaloniki, GR"
+
+- group: presented
+  when: "2026"
+  title: "8th Geography of Innovation Conference (GEOINNO 2026)"
+  place: "Budapest, HU"
+
+- group: presented
+  when: "2025"
+  title: "13th Conference on Micro Evidence on Innovation and Development (MEIDE)"
+  place: "Online"
+
+- group: presented
+  when: "2025"
+  title: "Economics of New Technology and Global Change (ENTEG) Workshop"
+  place: "Milan, IT"
+
+- group: presented
+  when: "2025"
+  title: "Regional Studies Association Conference"
+  place: "Porto, PT"
+
+- group: presented
+  when: "2024"
+  title: "DRUID Conference"
+  place: "Nice, FR"
+
+- group: presented
+  when: "2024"
+  title: "International Schumpeter Society Conference (ISS 2024)"
+  place: "Manchester, UK"
+
+- group: presented
+  when: "2024"
+  title: "ESCoE Conference on Economic Measurement"
+  place: "Gothenburg, SE"
+
+- group: presented
+  when: "2024"
+  title: "13th Dutch Development Economics Workshop (DuDE)"
+  place: "Utrecht, NL"

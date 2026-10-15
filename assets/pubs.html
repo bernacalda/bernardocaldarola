@@ -1,0 +1,108 @@
+<script>
+(function () {
+  // Abstract toggles (Research and Policy pages)
+  document.querySelectorAll('.pub').forEach(function (pub, i) {
+    var btn = pub.querySelector('.pub-abs-toggle');
+    var panel = pub.querySelector('.pub-abstract');
+    if (!btn || !panel) return;
+    panel.id = 'abstract-' + i;
+    btn.setAttribute('aria-controls', panel.id);
+    btn.addEventListener('click', function () {
+      var open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      panel.hidden = open;
+    });
+  });
+
+  // Theme filter and search (Research page only)
+  var root = document.querySelector('.pub-filters');
+  if (!root) return;
+  var pubs = Array.prototype.slice.call(document.querySelectorAll('.pub'));
+  var groups = Array.prototype.slice.call(document.querySelectorAll('.pub-group'));
+  var chips = root.querySelector('.pub-chips');
+  var search = root.querySelector('.pub-search');
+  var status = root.querySelector('.pub-status-line');
+  var empty = document.querySelector('.pub-empty');
+  var active = null;
+
+  function themesOf(p) { return (p.getAttribute('data-themes') || '').split('|').filter(Boolean); }
+
+  var counts = {};
+  pubs.forEach(function (p) { themesOf(p).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; }); });
+  var themes = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b); });
+
+  function makeChip(label, value, n) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'pub-chip';
+    b.setAttribute('data-value', value);
+    b.setAttribute('aria-pressed', 'false');
+    b.textContent = label;
+    var s = document.createElement('span');
+    s.className = 'n';
+    s.textContent = n;
+    b.appendChild(s);
+    b.addEventListener('click', function () { setTheme(active === value ? null : value); });
+    chips.appendChild(b);
+  }
+  makeChip('All', '', pubs.length);
+  themes.forEach(function (t) { makeChip(t, t, counts[t]); });
+
+  groups.forEach(function (g) {
+    var h = g.querySelector('h2');
+    if (h && !h.querySelector('.pub-count')) {
+      var c = document.createElement('span');
+      c.className = 'pub-count';
+      h.appendChild(c);
+    }
+  });
+
+  function setTheme(t) {
+    active = t || null;
+    chips.querySelectorAll('.pub-chip').forEach(function (c) {
+      var v = c.getAttribute('data-value');
+      c.setAttribute('aria-pressed', String((active || '') === v));
+    });
+    apply();
+  }
+
+  function apply() {
+    var q = (search.value || '').trim().toLowerCase();
+    var shown = 0;
+    pubs.forEach(function (p) {
+      var okTheme = !active || themesOf(p).indexOf(active) !== -1;
+      var okText = !q || p.textContent.toLowerCase().indexOf(q) !== -1;
+      p.hidden = !(okTheme && okText);
+      if (!p.hidden) shown++;
+    });
+    document.querySelectorAll('.pub-list').forEach(function (list) {
+      var first = list.querySelector('.pub:not([hidden])');
+      list.querySelectorAll('.pub').forEach(function (p) { p.classList.toggle('is-first', p === first); });
+    });
+    groups.forEach(function (g) {
+      var n = g.querySelectorAll('.pub:not([hidden])').length;
+      g.hidden = n === 0;
+      var c = g.querySelector('.pub-count');
+      if (c) c.textContent = n;
+    });
+    if (empty) empty.hidden = shown !== 0;
+    if (active || q) {
+      status.textContent = 'Showing ' + shown + ' of ' + pubs.length + ' papers' + (active ? ' on ' + active.toLowerCase() : '') + (q ? ' matching “' + search.value.trim() + '”' : '') + '.';
+    } else {
+      status.textContent = '';
+    }
+  }
+
+  search.addEventListener('input', apply);
+
+  // Clicking a theme under a paper filters the whole page by that theme
+  document.querySelectorAll('.pub-tag').forEach(function (tag) {
+    tag.addEventListener('click', function () {
+      setTheme(tag.getAttribute('data-theme'));
+      root.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    });
+  });
+
+  setTheme(null);
+})();
+</script>

@@ -1,0 +1,31 @@
+# Consultancy work (Policy page). Fields: when, title, detail, place, url (optional).
+
+- when: "2024"
+  title: "UN Trade and Development (UNCTAD)"
+  detail: "Empirical analysis of geospatial data to inform Venezuelan industrial policy and diversification strategies"
+  place: "Remote"
+
+- when: "2023–24"
+  title: "European Commission, Joint Research Centre"
+  detail: "Expert support to the SINATRA exploratory research activity on sustainable innovation and transition pathways in rural areas"
+  place: "Remote"
+
+- when: "2023–24"
+  title: "Catholic University of the Sacred Heart, Milan, and ANSEB"
+  detail: "Analysis of the food voucher industry in Italy"
+  place: "Remote"
+
+- when: "2021"
+  title: "International Labour Organization (ILO)"
+  detail: "Research for the ILO Research Department’s “Skills and transitions” project"
+  place: "Remote"
+
+- when: "2018–19"
+  title: "Palladium International and Institute of Development Studies"
+  detail: "Impact evaluation of the DFID-funded West African Food Market programme in Ghana, Niger, Nigeria and Burkina Faso, including fieldwork in Ouagadougou"
+  place: "Various"
+
+- when: "2017"
+  title: "International Fund for Agricultural Development (IFAD)"
+  detail: "Evaluation research for the Country Strategic Programme Evaluation for Angola and a project performance evaluation in rural Chad (internship)"
+  place: "Rome, IT"

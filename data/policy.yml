@@ -1,0 +1,47 @@
+# Policy reports and briefs (same fields as publications.yml).
+# TODO: replace every url: "#" with the link to the JRC Publications Repository.
+
+- title: "Chinese Cars in the EU: Current Trends and Driving Factors"
+  url: "#"
+  authors: "with Biagio Ciuffo, Hugo Confraria, Giuditta De Prato and 21 other co-authors"
+  venue: "JRC Science for Policy Brief"
+  details: "European Commission, 2026"
+  themes: [Firms and innovation]
+  links:
+    - {label: Policy brief, url: "#"}
+
+- title: "Path to Innovation: An Economic Complexity Analysis of Technological Perspectives in the EU"
+  url: "#"
+  authors: "with Giambattista Albora, Florence Benoit, Valentina di Girolamo, Dario Diodato, Lorenzo Napolitano and Carla Sciarra"
+  venue: "JRC Science for Policy Report"
+  details: "European Commission, 2025"
+  themes: [Economic complexity, Firms and innovation]
+  links:
+    - {label: Report, url: "#"}
+
+- title: "Strategic Technologies and Industrial Policies for Competitiveness and Sustainability"
+  url: "#"
+  authors: "with Carla Sciarra, Clemens Domnick and Fernando Hervas"
+  venue: "JRC Science for Policy Brief"
+  details: "European Commission, 2025"
+  themes: [Economic complexity, Sustainability]
+  links:
+    - {label: Policy brief, url: "#"}
+
+- title: "Global Value Chain Analysis of the EU Automotive Sector under the Lens of Economic Complexity"
+  url: "#"
+  authors: "with Lorenzo Cresti, Dario Mazzilli, Lorenzo Napolitano, Aurelio Patelli, Angelica Sbardella and Andrea Tacchella"
+  venue: "JRC Science for Policy Brief"
+  details: "European Commission, 2025"
+  themes: [Economic complexity]
+  links:
+    - {label: Policy brief, url: "#"}
+
+- title: "EU Competitiveness in Net-Zero Technologies: Insights from Patents and Economic Complexity"
+  url: "#"
+  authors: "with Giambattista Albora and Robert Marschinski"
+  venue: "JRC Science for Policy Brief"
+  details: "European Commission, 2025"
+  themes: [Economic complexity, Sustainability]
+  links:
+    - {label: Policy brief, url: "#"}

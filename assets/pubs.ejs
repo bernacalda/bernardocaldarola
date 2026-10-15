@@ -1,0 +1,61 @@
+```{=html}
+<%
+// Icons for common link labels (Bootstrap Icons). Unknown labels get a generic arrow.
+const icons = {
+  "Paper": "file-earmark-text",
+  "PDF": "file-earmark-pdf",
+  "Working paper": "journal-text",
+  "arXiv": "journal-text",
+  "Report": "file-earmark-richtext",
+  "Policy brief": "file-earmark-richtext",
+  "Slides": "easel",
+  "Code": "code-slash",
+  "Data": "database",
+  "Video": "play-circle"
+};
+%>
+<div class="pub-list">
+<% for (const item of items) { %>
+  <article class="pub" data-themes="<%= (item.themes || []).join('|') %>">
+    <h3 class="pub-title">
+      <% if (item.url) { %><a href="<%- item.url %>"><%= item.title %></a><% } else { %><%= item.title %><% } %>
+      <% if (item.status) { %><span class="pub-status"><%= item.status %></span><% } %>
+    </h3>
+    <% if (item.authors) { %><p class="pub-authors"><%= item.authors %></p><% } %>
+    <% if (item.venue) { %>
+      <p class="pub-venue"><em><%= item.venue %></em><% if (item.details) { %>, <%= item.details %><% } %></p>
+    <% } %>
+    <div class="pub-meta">
+      <% if (item.abstract || (item.links && item.links.length)) { %>
+      <div class="pub-actions">
+        <% if (item.abstract) { %>
+          <button type="button" class="pub-btn pub-abs-toggle" aria-expanded="false">
+            <i class="bi bi-chevron-down" aria-hidden="true"></i>Abstract
+          </button>
+        <% } %>
+        <% for (const link of (item.links || [])) { %>
+          <a class="pub-btn" href="<%- link.url %>">
+            <i class="bi bi-<%= link.icon || icons[link.label] || 'box-arrow-up-right' %>" aria-hidden="true"></i><%= link.label %>
+          </a>
+        <% } %>
+      </div>
+      <% } %>
+      <% if (item.themes && item.themes.length) { %>
+      <div class="pub-tags">
+        <% for (const t of item.themes) { %><button type="button" class="pub-tag" data-theme="<%= t %>"><%= t %></button><% } %>
+      </div>
+      <% } %>
+    </div>
+    <% if (item.abstract) { %>
+      <div class="pub-abstract" hidden><p><%= item.abstract %></p></div>
+    <% } %>
+    <% if (item.media && item.media.length) { %>
+      <p class="pub-extra">In the media:
+        <% item.media.forEach(function (m, i) { %><% if (m.url) { %><a href="<%- m.url %>"><%= m.outlet %></a><% } else { %><%= m.outlet %><% } %><%= i < item.media.length - 1 ? ', ' : '' %><% }) %>
+      </p>
+    <% } %>
+    <% if (item.note) { %><p class="pub-extra"><%= item.note %></p><% } %>
+  </article>
+<% } %>
+</div>
+```

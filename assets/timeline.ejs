@@ -1,0 +1,14 @@
+```{=html}
+<ol class="tl">
+<% for (const item of items) { %>
+  <li class="tl-row">
+    <span class="tl-when"><%= item.when %></span>
+    <div class="tl-body">
+      <span class="tl-title"><% if (item.url) { %><a href="<%- item.url %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></span>
+      <% if (item.detail) { %><span class="tl-detail"><%= item.detail %></span><% } %>
+    </div>
+    <% if (item.place) { %><span class="tl-place"><%= item.place %></span><% } else { %><span></span><% } %>
+  </li>
+<% } %>
+</ol>
+```

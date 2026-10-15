@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+
+$bc-paper:  #14171F;
+$bc-ink:    #E7E9EF;
+$bc-muted:  #9CA3B4;
+$bc-rule:   #2A2F3B;
+$bc-wash:   #1B1F29;
+$bc-accent: #E6909F;
+$bc-accent-wash: #2B1C23;
+$bc-slate:  #94B7DA;
+
+$body-bg: $bc-paper;
+$body-color: $bc-ink;
+$primary: $bc-accent;
+$link-color: $bc-accent;
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+$font-family-sans-serif: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Newsreader", "Iowan Old Style", Georgia, "Times New Roman", serif;
+$headings-font-weight: 500;
+$font-size-root: 17px;
+$line-height-base: 1.6;
+
+$navbar-bg: $bc-paper;
+$navbar-fg: $bc-ink;
+$navbar-hl: $bc-accent;
+$footer-bg: $bc-paper;
+$footer-fg: $bc-muted;
+
+/*-- scss:rules --*/
+
+:root {
+  --bc-paper: #{$bc-paper};
+  --bc-ink: #{$bc-ink};
+  --bc-muted: #{$bc-muted};
+  --bc-rule: #{$bc-rule};
+  --bc-wash: #{$bc-wash};
+  --bc-accent: #{$bc-accent};
+  --bc-accent-wash: #{$bc-accent-wash};
+  --bc-slate: #{$bc-slate};
+  color-scheme: dark;
+}

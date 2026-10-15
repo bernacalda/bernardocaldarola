@@ -1,0 +1,194 @@
+# Publications, working papers and work in progress.
+# The Research page reads this file. Entries appear in the order written here.
+#
+# Fields (only `title` and `type` are required):
+#   type:     article | wp | wip         -> which section the entry appears in
+#   title:    paper title
+#   url:      where the title links to (usually the DOI or the journal page)
+#   status:   small label next to the title, e.g. "Forthcoming", "R&R", "Under review"
+#   authors:  co-author line
+#   venue:    journal or series (shown in italics)
+#   details:  year, volume(issue), pages
+#   themes:   list of research themes; these become the filter buttons on the page
+#   abstract: shown when "Abstract" is clicked; delete the line to hide the button
+#   links:    buttons; known labels get icons: Paper, PDF, Working paper, arXiv,
+#             Report, Policy brief, Slides, Code, Data, Video
+#   media:    press coverage, as outlet + url
+#   note:     a small line at the bottom, e.g. funding
+#
+# TODO: replace every url: "#" with the real link and paste in the abstracts.
+
+# ---------------------------------------------------------------- Journal articles
+
+- type: article
+  title: "Scaling Up to the Cloud: Cloud Technology Use and Growth Rates in Small and Large Firms"
+  url: "#"
+  status: "Forthcoming"
+  authors: "with Luca Fontanelli"
+  venue: "Research Policy"
+  details: "forthcoming"
+  themes: [Digital technologies, Firms and innovation]
+  abstract: "Abstract to be added."
+  links:
+    - {label: Paper, url: "#"}
+
+- type: article
+  title: "3G Internet Diffusion and Secondary Education Attainment: Evidence of Opportunity Cost in Viet Nam"
+  url: "#"
+  authors: "with Trang Thi-Pham"
+  venue: "Review of Development Economics"
+  details: "2026, 30(2), 941–966"
+  themes: [Digital technologies, Skills and labour, Structural change]
+  abstract: "Abstract to be added."
+  links:
+    - {label: Paper, url: "#"}
+
+- type: article
+  title: "Economic Complexity and the Sustainability Transition: A Review of Data, Methods, and Literature"
+  url: "#"
+  authors: "with Dario Mazzilli, Lorenzo Napolitano, Aurelio Patelli and Angelica Sbardella"
+  venue: "Journal of Physics: Complexity"
+  details: "2024, 5(2)"
+  themes: [Economic complexity, Sustainability]
+  abstract: "Abstract to be added."
+  links:
+    - {label: Paper, url: "#"}
+
+- type: article
+  title: "Does Teleworking Encourage Longer Commutes? Evidence from the English National Travel Survey"
+  url: "#"
+  authors: "with Steve Sorrell"
+  venue: "Travel Behaviour and Society"
+  details: "2024, 37, 100822"
+  themes: [Telework and travel]
+  abstract: "Abstract to be added."
+  links:
+    - {label: Paper, url: "#"}
+
+- type: article
+  title: "Mobile Internet, Skills and Structural Transformation in Rwanda"
+  url: "#"
+  authors: "with Marco Grazzi, Martina Occelli and Marco Sanfilippo"
+  venue: "Research Policy"
+  details: "2023, 52(10), 104871"
+  themes: [Digital technologies, Structural change, Skills and labour]
+  abstract: "Abstract to be added."
+  links:
+    - {label: Paper, url: "#"}
+  media:
+    - {outlet: "Nemo Kennislink (1)", url: "#"}
+    - {outlet: "Nemo Kennislink (2)", url: "#"}
+
+- type: article
+  title: "Do Teleworkers Travel Less? The Historical Impact of Teleworking on English Travel"
+  url: "#"
+  authors: "with Steve Sorrell"
+  venue: "Transportation Research Part A: Policy and Practice"
+  details: "2022, 159, 282–303"
+  themes: [Telework and travel]
+  abstract: "Abstract to be added."
+  links:
+    - {label: Paper, url: "#"}
+  media:
+    - {outlet: "Forbes", url: "#"}
+    - {outlet: "The Telegraph", url: "#"}
+    - {outlet: "Daily Mail", url: "#"}
+
+# ---------------------------------------------------------------- Working papers
+
+- type: wp
+  title: "Structural Change, Employment, and Inequality in Europe: An Economic Complexity Approach"
+  url: "https://arxiv.org/abs/2410.07906"
+  authors: "with Dario Mazzilli, Aurelio Patelli and Angelica Sbardella"
+  venue: "UNU-MERIT Working Paper Series"
+  details: "arXiv:2410.07906"
+  themes: [Economic complexity, Structural change, Skills and labour]
+  abstract: "Abstract to be added."
+  links:
+    - {label: arXiv, url: "https://arxiv.org/abs/2410.07906"}
+    - {label: Working paper, url: "#"}
+
+- type: wp
+  title: "Mobile Internet Adoption and Inclusive Structural Change: Evidence from Nigerian Non-Farming Enterprises"
+  url: "#"
+  authors: "Single-authored"
+  venue: "STEG Working Paper"
+  themes: [Digital technologies, Structural change, Firms and innovation]
+  abstract: "Abstract to be added."
+  links:
+    - {label: Working paper, url: "#"}
+
+- type: wp
+  title: "Structural Change(s) in Ghana: A Comparison between the Export, Formal, and Informal Sectors"
+  url: "#"
+  authors: "Single-authored"
+  venue: "LEM Papers Series, Sant’Anna School of Advanced Studies"
+  themes: [Structural change, Economic complexity]
+  abstract: "Abstract to be added."
+  links:
+    - {label: Working paper, url: "#"}
+
+- type: wp
+  title: "Informal and Formal Industrial Co-location and Structural Change in Ghana"
+  authors: "with Tommaso Ciarli"
+  themes: [Structural change, Regions]
+  abstract: "Abstract to be added."
+
+- type: wp
+  title: "Women’s Depletion Risk from Time Poverty: Evidence from Nepal, India, Rwanda and Tanzania"
+  authors: "with Amrita Saha and Deepta Chopra"
+  themes: [Gender and time use]
+  abstract: "Abstract to be added."
+
+# ---------------------------------------------------------------- Work in progress
+
+- type: wip
+  title: "The Hidden Innovators: Uncovering Capabilities and Industrial Dynamics in European Rural Areas"
+  authors: "with Simone Sasso, Simon Trlifaj, Tommaso Ciarli, Emanuele Pugliese and Alessio Bumbea"
+  themes: [Regions, Economic complexity, Firms and innovation]
+  note: "Funded by the JRC (Unit B.3)"
+
+- type: wip
+  title: "Club Convergence among European Regions: Beyond the Rural-Urban Divide"
+  authors: "with Simone Sasso, Diego Chavarro and Tommaso Ciarli"
+  themes: [Regions]
+  note: "Funded by the JRC (Unit B.3)"
+
+- type: wip
+  title: "Measuring Innovation Capabilities for Sustainable Transitions in Rural Areas"
+  authors: "with Tommaso Ciarli, Diego Chavarro, Simone Sasso and Michal Miedzinski"
+  themes: [Regions, Sustainability]
+  note: "Funded by the JRC (Unit B.3), SINATRA project"
+
+- type: wip
+  title: "AI Capabilities and Labour Market Outcomes: Evidence from EU Regions"
+  authors: "with Maddalena Mula, Carla Sciarra, Dario Diodato, Enrique Macias-Fernandez, Pablo Casas, Lorenzo Napolitano and Giambattista Albora"
+  themes: [Digital technologies, Skills and labour, Regions]
+
+- type: wip
+  title: "The In-Demand Skills Portfolios of UK and EU Regions and Their Impact on Productivity"
+  authors: "with Tommaso Ciarli, Alexandra Badort and Sidharth Rony"
+  themes: [Skills and labour, Regions]
+  note: "Funded by The Productivity Institute"
+
+- type: wip
+  title: "The Adoption of 3D Printers and Its Impact on the Value Chain Positioning of French Firms"
+  authors: "with Luca Fontanelli, Kristina McElheran and Elena Verdolini"
+  themes: [Digital technologies, Firms and innovation]
+
+- type: wip
+  title: "Related or Exposed? A Shift-Share Approach to Relatedness Density"
+  authors: "with Giacomo Lo Conte, Dario Diodato, Lorenzo Napolitano, Giambattista Albora and Carla Sciarra"
+  themes: [Economic complexity]
+
+- type: wip
+  title: "Training Job Creators: Assessing the Impact of a Long-Term MBA for Entrepreneurs in Sub-Saharan Africa"
+  authors: "with Erica Negro, Susan Bvochora, Marco Grazzi, Joe Kaboski and Patrizio Piraino"
+  themes: [Firms and innovation, Structural change]
+  note: "Funded by Private Enterprise Development in Low-Income Countries (PEDL)"
+
+- type: wip
+  title: "Structural Transformation in Venezuela"
+  authors: "with Marco Sanfilippo"
+  themes: [Structural change, Economic complexity]
+  note: "Funded by UN Trade and Development (UNCTAD)"

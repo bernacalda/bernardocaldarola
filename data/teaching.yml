@@ -1,0 +1,95 @@
+# Teaching page. `group` decides the section: training | teaching | supervision
+# Fields: when, title, detail, place, url (optional).
+
+# ---------------------------------------------------------------- Training for policy analysts
+- group: training
+  when: "2025"
+  title: "Advanced Training in Economic Complexity"
+  detail: "Two-day training for economic analysts, Directorate-General for Research and Innovation (DG RTD)"
+  place: "Seville, ES"
+
+- group: training
+  when: "2025"
+  title: "Introduction to Economic Complexity"
+  detail: "Two-day training for economic analysts, Directorate-General for Research and Innovation (DG RTD)"
+  place: "Brussels, BE"
+
+# ---------------------------------------------------------------- University teaching
+- group: teaching
+  when: "2024"
+  title: "The Economic Rationale of Economic Complexity"
+  detail: "Lecturer, Summer School, UNU-MERIT"
+  place: "Maastricht, NL"
+
+- group: teaching
+  when: "2024"
+  title: "Evidence-Based Policy Research Methods"
+  detail: "Tutor, UNU-MERIT"
+  place: "Maastricht, NL"
+
+- group: teaching
+  when: "2022"
+  title: "Economics of Innovation"
+  detail: "Postgraduate R workshops, LUISS Guido Carli University (one term)"
+  place: "Rome, IT"
+
+- group: teaching
+  when: "2019–21"
+  title: "Innovation and Economic Development"
+  detail: "Postgraduate seminars, Science Policy Research Unit (SPRU), University of Sussex (three terms)"
+  place: "Brighton, UK"
+
+- group: teaching
+  when: "2018–19"
+  title: "Quantitative Methods for Science, Technology and Innovation Studies"
+  detail: "Postgraduate Stata workshops, SPRU, University of Sussex (two terms)"
+  place: "Brighton, UK"
+
+- group: teaching
+  when: "2018–19"
+  title: "Applied Economic Topics: Economics of Innovation"
+  detail: "Undergraduate seminars, Department of Economics, University of Sussex (two terms)"
+  place: "Brighton, UK"
+
+- group: teaching
+  when: "2018"
+  title: "Stata Surgery Sessions"
+  detail: "Stata workshops for undergraduate finalists, Department of Economics, University of Sussex"
+  place: "Brighton, UK"
+
+- group: teaching
+  when: "2018"
+  title: "Network Analysis and Infographics"
+  detail: "Postgraduate R workshops, SPRU, University of Sussex"
+  place: "Brighton, UK"
+
+- group: teaching
+  when: "2018"
+  title: "Economic Perspectives on Development"
+  detail: "Postgraduate seminars, Institute of Development Studies"
+  place: "Brighton, UK"
+
+- group: teaching
+  when: "2017"
+  title: "Entrepreneurship Finance and Accounting"
+  detail: "Undergraduate seminars, Department of Management, University of Sussex"
+  place: "Brighton, UK"
+
+# ---------------------------------------------------------------- Supervision and committees
+- group: supervision
+  when: "2025"
+  title: "PhD assessment committee"
+  detail: "“Essays on Labor Dynamics and Industrial Growth: Supply Chains, Innovation and Informality” by Gbenoukpo Robert Djidonou, UNU-MERIT"
+  place: "Maastricht, NL"
+
+- group: supervision
+  when: "2024"
+  title: "MSc thesis supervision (two students)"
+  detail: "MSc in Emerging Markets Economics and Strategy, Maastricht University"
+  place: "Maastricht, NL"
+
+- group: supervision
+  when: "2024"
+  title: "MSc thesis supervision (one student)"
+  detail: "MSc in Public Policy and Human Development, UNU-MERIT"
+  place: "Maastricht, NL"
