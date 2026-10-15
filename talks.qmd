@@ -1,0 +1,38 @@
+---
+title: "Talks"
+subtitle: "Invited talks and lectures, events I have organised, and recent conference presentations. The full list is in my CV."
+listing:
+  - id: invited-list
+    contents: data/talks.yml
+    include:
+      group: invited
+    template: assets/timeline.ejs
+    sort: false
+  - id: organised-list
+    contents: data/talks.yml
+    include:
+      group: organised
+    template: assets/timeline.ejs
+    sort: false
+  - id: presented-list
+    contents: data/talks.yml
+    include:
+      group: presented
+    template: assets/timeline.ejs
+    sort: false
+---
+
+## Invited talks and lectures
+
+::: {#invited-list}
+:::
+
+## Events organised
+
+::: {#organised-list}
+:::
+
+## Recent conference presentations
+
+::: {#presented-list}
+:::

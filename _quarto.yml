@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - files/
+    - images/
+
+website:
+  title: "Bernardo Caldarola"
+  description: "Applied economist working on structural change, technology adoption and economic complexity."
+  # Set this once the site is live (e.g. https://<username>.github.io) so social previews work.
+  # site-url: https://<username>.github.io
+  image: images/headshot-square.jpg
+  favicon: images/mark.svg
+  open-graph: true
+  search: false
+  page-navigation: false
+  navbar:
+    logo: images/mark.svg
+    logo-alt: "Home"
+    title: "Bernardo Caldarola"
+    right:
+      - text: Research
+        href: research.qmd
+      - text: Policy
+        href: policy.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Talks
+        href: talks.qmd
+      - text: CV
+        href: files/CV_Bernardo_Caldarola.pdf
+  page-footer:
+    left: "© 2026 Bernardo Caldarola. Views expressed here are my own and do not necessarily reflect those of the European Commission."
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [default, assets/theme-light.scss, assets/site.scss]
+      dark: [default, assets/theme-dark.scss, assets/site.scss]
+    respect-user-color-scheme: true
+    include-in-header: assets/fonts.html
+    page-layout: article
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    title-block-banner: false

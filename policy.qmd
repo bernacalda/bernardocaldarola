@@ -1,0 +1,24 @@
+---
+title: "Policy"
+subtitle: "Science for Policy reports and briefs written at the European Commission's Joint Research Centre, and consultancy for international organisations."
+include-after-body: assets/pubs.html
+listing:
+  - id: policy-list
+    contents: data/policy.yml
+    template: assets/pubs.ejs
+    sort: false
+  - id: consultancy-list
+    contents: data/consultancy.yml
+    template: assets/timeline.ejs
+    sort: false
+---
+
+## Reports and briefs
+
+::: {#policy-list}
+:::
+
+## Consultancy
+
+::: {#consultancy-list}
+:::

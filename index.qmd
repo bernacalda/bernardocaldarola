@@ -1,0 +1,65 @@
+---
+pagetitle: "Bernardo Caldarola"
+description: "Applied economist at the European Commission's Joint Research Centre, working on structural change, technology adoption and economic complexity."
+---
+
+::: {.hero .column-body-outset}
+
+::: {.hero-photo}
+![](images/headshot.jpg){fig-alt="Portrait of Bernardo Caldarola"}
+:::
+
+::: {.hero-text}
+# Bernardo Caldarola {.hero-name}
+
+[Economic Complexity Analyst at the European Commission's Joint Research Centre in Seville, and affiliated researcher at UNU-MERIT]{.hero-role}
+
+I am an applied economist working where development economics meets the economics of innovation. I study how economies build new capabilities and change what they produce, and what this means for firms, workers and regions.
+
+My research follows three connected lines: structural change in sub-Saharan Africa, including the role of informal enterprises; the adoption of digital technologies, from mobile internet to cloud computing, and their effects on firms, skills and jobs; and economic complexity methods applied to EU industrial and technology policy. I have also worked on how teleworking changes the way people travel.
+
+I work in the Economic Complexity Team of the JRC's Industrial Strategy, Skills and Technology Transfer unit. Before joining the JRC, I was a research fellow at UNU-MERIT in Maastricht and at the Enrico Fermi Research Centre in Rome. I hold a PhD in Science and Technology Policy Studies from SPRU, University of Sussex.
+
+```{=html}
+<ul class="hero-links">
+  <li><a href="mailto:bernardo.caldarola@gmail.com"><i class="bi bi-envelope" aria-hidden="true"></i>Email</a></li>
+  <li><a href="https://scholar.google.com/citations?user=R3LlB_cAAAAJ&hl=en"><i class="bi bi-mortarboard" aria-hidden="true"></i>Google Scholar</a></li>
+  <!-- TODO: replace the two placeholder links below with your GitHub and LinkedIn profiles -->
+  <li><a href="https://scholar.google.com/citations?user=R3LlB_cAAAAJ&hl=en"><i class="bi bi-github" aria-hidden="true"></i>GitHub</a></li>
+  <li><a href="https://scholar.google.com/citations?user=R3LlB_cAAAAJ&hl=en"><i class="bi bi-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+  <li><a href="files/CV_Bernardo_Caldarola.pdf"><i class="bi bi-file-earmark-text" aria-hidden="true"></i>CV (PDF)</a></li>
+</ul>
+```
+:::
+
+:::
+
+::: {.facts .column-body-outset}
+
+::: {}
+## Research interests
+
+- Structural change and development
+- Technology adoption and digitalisation
+- Economic complexity
+- Skills and labour markets
+- Regional and industrial policy
+:::
+
+::: {}
+## Education
+
+- PhD in Science and Technology Policy Studies, 2023 [SPRU, University of Sussex]{.fact-sub}
+- MSc in Development and International Cooperation, 2016 [ISEG, University of Lisbon]{.fact-sub}
+- BA in Political Science and International Relations, 2013 [University of Pavia]{.fact-sub}
+:::
+
+::: {}
+## Latest
+
+- "Scaling Up to the Cloud", with Luca Fontanelli, is forthcoming in *Research Policy* [Journal article]{.fact-sub}
+- "Chinese Cars in the EU" published as a JRC Science for Policy Brief [Policy brief, 2026]{.fact-sub}
+- Organising the 3rd RESKILL Workshop at the JRC [Seville, 2026]{.fact-sub}
+:::
+
+:::

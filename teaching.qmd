@@ -1,0 +1,40 @@
+---
+title: "Teaching"
+subtitle: "Training for policy analysts, university teaching and supervision."
+listing:
+  - id: training-list
+    contents: data/teaching.yml
+    include:
+      group: training
+    template: assets/timeline.ejs
+    sort: false
+  - id: teaching-list
+    contents: data/teaching.yml
+    include:
+      group: teaching
+    template: assets/timeline.ejs
+    sort: false
+  - id: supervision-list
+    contents: data/teaching.yml
+    include:
+      group: supervision
+    template: assets/timeline.ejs
+    sort: false
+---
+
+## Training for policy analysts
+
+::: {#training-list}
+:::
+
+## University teaching
+
+::: {#teaching-list}
+:::
+
+## Supervision and committees
+
+::: {#supervision-list}
+:::
+
+[I am an Associate Fellow of the Higher Education Academy (AFHEA).]{.small-print}

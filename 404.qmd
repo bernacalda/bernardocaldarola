@@ -1,0 +1,5 @@
+---
+title: "Page not found"
+---
+
+This page doesn't exist or has moved. Go back to the [home page](index.qmd) or browse my [research](research.qmd).

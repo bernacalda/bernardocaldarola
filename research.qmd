@@ -1,0 +1,64 @@
+---
+title: "Research"
+subtitle: "Journal articles, working papers and ongoing projects. Filter by theme or search by title, co-author or journal."
+include-after-body: assets/pubs.html
+listing:
+  - id: articles
+    contents: data/publications.yml
+    include:
+      type: article
+    template: assets/pubs.ejs
+    sort: false
+  - id: wps
+    contents: data/publications.yml
+    include:
+      type: wp
+    template: assets/pubs.ejs
+    sort: false
+  - id: wips
+    contents: data/publications.yml
+    include:
+      type: wip
+    template: assets/pubs.ejs
+    sort: false
+---
+
+```{=html}
+<div class="pub-filters" role="search">
+  <div class="pub-chips" role="group" aria-label="Filter papers by theme"></div>
+  <label class="visually-hidden" for="pub-search">Search papers</label>
+  <input id="pub-search" class="pub-search" type="search" placeholder="Search titles, co-authors, journals" autocomplete="off">
+  <p class="pub-status-line" aria-live="polite"></p>
+</div>
+```
+
+::: {.pub-group}
+## Journal articles
+
+::: {#articles}
+:::
+:::
+
+::: {.pub-group}
+## Working papers
+
+::: {#wps}
+:::
+:::
+
+::: {.pub-group}
+## Work in progress
+
+::: {#wips}
+:::
+:::
+
+::: {.pub-empty hidden="true"}
+No papers match this filter. Choose "All" or clear the search box.
+:::
+
+## Editorial and referee work
+
+**Co-editor**, special issue on *Innovation and Strategic Autonomy for Competitiveness*, Economics of Innovation and New Technology, with Michele Cincera, Helena Lenihan, Hannah Hottenrott, Pietro Moncada-Paternò-Castello and Francesco Rentocchini.
+
+[**Referee** for Research Policy (5), Journal of Evolutionary Economics (4), Journal of International Business Economics (4), Structural Change and Economic Dynamics (3), Economics of Innovation and New Technology (2), Journal of Population Economics, Economic Geography, Regional Studies, Spatial Economic Analysis, Industry and Innovation, Journal of Development Effectiveness, African Development Review, Asian Development Review, B.E. Journal of Economic Analysis and Policy, Empirical Economics, Transportation Research Part A, Journal of Transport Geography, Journal of Physics: Complexity, The Manchester School, PLOS Climate and Scienze Regionali.]{.referee-list}
