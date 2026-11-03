@@ -24,10 +24,6 @@ website:
         href: research.qmd
       - text: Policy
         href: policy.qmd
-      - text: Teaching
-        href: teaching.qmd
-      - text: Talks
-        href: talks.qmd
       - text: CV
         href: files/CV_Bernardo_Caldarola.pdf
   page-footer:
