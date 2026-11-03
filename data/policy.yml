@@ -1,6 +1,15 @@
 # Policy reports and briefs (same fields as publications.yml).
 # TODO: replace every url: "#" with the link to the JRC Publications Repository.
 
+- title: "Building the EU technological leadership: absolute and relative capabilities in advanced materials"
+  url: "https://ec.europa.eu/assets/rtd/srip/2026/ec_rtd_srip-2026-report-chapter-10.pdf"
+  authors: "with Giambattista Albora, Dario Diodato, Lorenzo Napolitano, and Carla Sciarra"
+  venue: "JRC Science for Policy Brief"
+  details: "European Commission, 2026"
+  themes: [Economic complexity, Regions]
+  links:
+    - {label: Policy brief, url: "https://ec.europa.eu/assets/rtd/srip/2026/ec_rtd_srip-2026-report-chapter-10.pdf"}
+
 - title: "Chinese Cars in the EU: Current Trends and Driving Factors"
   url: "#"
   authors: "with Biagio Ciuffo, Hugo Confraria, Giuditta De Prato and 21 other co-authors"
@@ -12,7 +21,7 @@
 
 - title: "Path to Innovation: An Economic Complexity Analysis of Technological Perspectives in the EU"
   url: "#"
-  authors: "with Giambattista Albora, Florence Benoit, Valentina di Girolamo, Dario Diodato, Lorenzo Napolitano and Carla Sciarra"
+  authors: "with Giambattista Albora, Florence Benoit, Valentina di Girolamo, Dario Diodato, Lorenzo Napolitano, and Carla Sciarra"
   venue: "JRC Science for Policy Report"
   details: "European Commission, 2025"
   themes: [Economic complexity, Firms and innovation]
