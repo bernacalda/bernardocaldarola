@@ -22,76 +22,78 @@
 
 - type: article
   title: "Scaling Up to the Cloud: Cloud Technology Use and Growth Rates in Small and Large Firms"
-  url: "#"
+  url: "https://arxiv.org/pdf/2409.17035"
   status: "Forthcoming"
   authors: "with Luca Fontanelli"
   venue: "Research Policy"
   details: "forthcoming"
   themes: [Digital technologies, Firms and innovation]
-  abstract: "Abstract to be added."
+  abstract: "Using a unique combination of micro-level data sources on French firms, this paper explores the relationship between cloud technologies and firm growth. Whereas digital technologies have generally been found to disproportionately benefit larger firms, we document that cloud use is positively associated with firm growth, and this association is significantly stronger for smaller firms. Distinguishing cloud services between Infrastructure-as-a-Service (IaaS) and Software-as-a-Service (SaaS), we find that the size-contingent association is driven entirely by SaaS. Crucially, this small firm advantage is conditional on complementary assets as it emerges only among firms endowed with ICT capabilities. Our results are robust across a range of specifications, including instrumental variable strategies. SaaS cloud use is further associated with internal workforce reorganisation toward ICT, managerial, and intermediate occupations and away from manual and clerical ones, particularly among smaller firms, consistent with SaaS cloud operating as an organisational innovation enabling digitalisation and scaling. Finally, we present descriptive sectoral evidence of a negative correlation between cloud and market concentration."
   links:
-    - {label: Paper, url: "#"}
+    - {label: Paper, url: "https://arxiv.org/pdf/2409.17035"}
 
 - type: article
   title: "3G Internet Diffusion and Secondary Education Attainment: Evidence of Opportunity Cost in Viet Nam"
-  url: "#"
+  url: "https://onlinelibrary.wiley.com/doi/full/10.1111/rode.70031"
   authors: "with Trang Thi-Pham"
   venue: "Review of Development Economics"
   details: "2026, 30(2), 941–966"
   themes: [Digital technologies, Skills and labour, Structural change]
-  abstract: "Abstract to be added."
+  abstract: "Mobile internet diffusion has led to significant societal and economic transformations since its early diffusion, especially in the Global South. This has implied changes in human capital formation, particularly through education, and has reshaped the trade-off between education and employment, especially among the younger population. In this paper, we explore the impact of 3G internet diffusion on educational outcomes in Vietnam—a country characterized by sustained industrialization and new employment opportunities. We find that the diffusion of mobile broadband internet improves lower-secondary school attainment but discourages upper-secondary achievement among youngsters. We rationalize these findings through an education—employment trade-off perspective, by considering the opportunity costs of schooling vis à vis employment. We show that the diffusion of fast mobile broadband internet is associated with more job opportunities and reduced returns to schooling during the period 2012–2016. Our results offer implications for developing countries' education and human capital development policies in the age of (mobile) digitalization."
   links:
-    - {label: Paper, url: "#"}
+    - {label: Paper, url: "https://onlinelibrary.wiley.com/doi/full/10.1111/rode.70031"}
 
 - type: article
   title: "Economic Complexity and the Sustainability Transition: A Review of Data, Methods, and Literature"
-  url: "#"
+  url: "https://iopscience.iop.org/article/10.1088/2632-072X/ad4f3d/meta"
   authors: "with Dario Mazzilli, Lorenzo Napolitano, Aurelio Patelli and Angelica Sbardella"
   venue: "Journal of Physics: Complexity"
   details: "2024, 5(2)"
   themes: [Economic complexity, Sustainability]
-  abstract: "Abstract to be added."
+  abstract: "Economic Complexity (EC) methods have gained increasing popularity across fields and disciplines. In particular, the EC toolbox has proved particularly promising in the study of complex and interrelated phenomena, such as the transition towards a more sustainable economy. Using the EC approach, scholars have been investigating the relationship between EC and sustainability, and identifying the distinguishing characteristics of green activities and to assess the readiness of productive and technological structures for the sustainability transition. This article proposes to review and summarize the data, methods, and empirical literature that are relevant to the study of the sustainability transition from an EC perspective. We review three distinct but connected blocks of literature on EC and environmental sustainability. First, we survey the evidence linking measures of EC to indicators related to environmental sustainability. Second, we review articles that strive to assess the green competitiveness of productive systems. Third, we examine evidence on green technological development and its connection to non-green knowledge bases. Finally, we summarize the findings for each block, while identifying criticalities and avenues for further research in this recent and growing body of empirical literature."
   links:
-    - {label: Paper, url: "#"}
+    - {label: Paper, url: "https://iopscience.iop.org/article/10.1088/2632-072X/ad4f3d/meta"}
 
 - type: article
   title: "Does Teleworking Encourage Longer Commutes? Evidence from the English National Travel Survey"
-  url: "#"
+  url: "https://www.sciencedirect.com/science/article/pii/S2214367X24000851"
   authors: "with Steve Sorrell"
   venue: "Travel Behaviour and Society"
   details: "2024, 37, 100822"
   themes: [Telework and travel]
-  abstract: "Abstract to be added."
+  abstract: "Teleworking could make an important contribution to reducing car travel, air pollution and carbon emissions. However, a growing body of evidence suggests that teleworkers tend to live further from their place of work than non-teleworkers, and that teleworking encourages more non-work travel. These responses make it difficult to estimate the overall impact of teleworking on personal travel.
+This study estimates the impact of teleworking on English travel patterns over the period 2005 to 2019. We focus on whether people choose to telework because they live a long distance from their workplace, or whether they choose to live a long distance from their workplace because they can telework.
+We employ a path analysis methodology using data from the English National Travel Survey. We estimate the direct and indirect effects of working from home on the travel patterns of both the teleworker and other members of their household. Our results suggest that teleworking causes people to live farther from their workplace rather than vice versa. We further find that most teleworkers travel farther each week than non-teleworkers and they only achieve travel savings if they work from home for three or more days each week. Our results support the findings of other studies in this area and suggest that public policy needs to target sustainable land-use and transport planning more broadly, rather than encouraging teleworking specifically."
   links:
-    - {label: Paper, url: "#"}
+    - {label: Paper, url: "https://www.sciencedirect.com/science/article/pii/S2214367X24000851"}
 
 - type: article
   title: "Mobile Internet, Skills and Structural Transformation in Rwanda"
-  url: "#"
+  url: "https://www.sciencedirect.com/science/article/pii/S0048733323001555"
   authors: "with Marco Grazzi, Martina Occelli and Marco Sanfilippo"
   venue: "Research Policy"
   details: "2023, 52(10), 104871"
   themes: [Digital technologies, Structural change, Skills and labour]
-  abstract: "Abstract to be added."
+  abstract: "This paper examines the relationship between mobile internet, employment and structural transformation in Rwanda. Thanks to its ability to enable access to a wide range of ICT technologies, internet coverage has the potential to affect the dynamics and the composition of employment significantly. To demonstrate this, we have combined GSMA network coverage maps with individual-level information from national population censuses and labour force surveys, creating a district-level dataset of Rwanda that covers the 2002 to 2019 period. Our results show that an increase in mobile internet coverage affects the labour market in two ways. First, by increasing employment opportunities. Second, by contributing to changes in the composition of the labour market. Education, migration and shifts in demand are all instrumental in explaining our findings."
   links:
-    - {label: Paper, url: "#"}
+    - {label: Paper, url: "https://www.sciencedirect.com/science/article/pii/S0048733323001555"}
   media:
-    - {outlet: "Nemo Kennislink (1)", url: "#"}
-    - {outlet: "Nemo Kennislink (2)", url: "#"}
+    - {outlet: "Nemo Kennislink (1)", url: "https://www.nemokennislink.nl/publicaties/afrika-mist-online-aansluiting/"}
+    - {outlet: "Nemo Kennislink (2)", url: "https://www.nemokennislink.nl/publicaties/hulp-van-afrikaanse-technici/"}
 
 - type: article
   title: "Do Teleworkers Travel Less? The Historical Impact of Teleworking on English Travel"
-  url: "#"
+  url: "https://www.sciencedirect.com/science/article/abs/pii/S0965856422000738"
   authors: "with Steve Sorrell"
   venue: "Transportation Research Part A: Policy and Practice"
   details: "2022, 159, 282–303"
   themes: [Telework and travel]
   abstract: "Abstract to be added."
   links:
-    - {label: Paper, url: "#"}
+    - {label: Paper, url: "https://www.sciencedirect.com/science/article/abs/pii/S0965856422000738"}
   media:
-    - {outlet: "Forbes", url: "#"}
-    - {outlet: "The Telegraph", url: "#"}
+    - {outlet: "Forbes", url: "https://www.forbes.com/sites/adigaskell/2022/07/07/is-hybrid-working-worse-for-the-planet/"}
+    - {outlet: "The Telegraph", url: "https://www.telegraph.co.uk/news/2022/04/06/working-home-part-time-bad-environment/"}
     - {outlet: "Daily Mail", url: "#"}
 
 # ---------------------------------------------------------------- Working papers
