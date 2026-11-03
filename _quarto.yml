@@ -9,7 +9,6 @@ website:
   title: "Bernardo Caldarola"
   description: "Applied economist working on structural change, technology adoption and economic complexity."
   # Set this once the site is live (e.g. https://<username>.github.io) so social previews work.
-  # site-url: https://<username>.github.io
   image: images/headshot-square.jpg
   favicon: images/mark.svg
   open-graph: true
