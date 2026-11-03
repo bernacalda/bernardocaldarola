@@ -58,8 +58,8 @@ I work in the Economic Complexity Team of the JRC's Industrial Strategy, Skills 
 ## Latest
 
 - "Scaling Up to the Cloud", with Luca Fontanelli, is forthcoming in *Research Policy* [Journal article]{.fact-sub}
-- "Building the EU technological leadership: absolute and relative capabilities in advanced materials" published in the Science, Research and Innovation Performance (SRIP) report 2026 of DG Research and Innovation
-- Organising the 3rd RESKILL Workshop at the JRC [Seville, 2026]{.fact-sub}
+- [Contribution](https://ec.europa.eu/assets/rtd/srip/2026/ec_rtd_srip-2026-report-chapter-10.pdf) published in the Science, Research and Innovation Performance (SRIP 2026) report of DG Research and Innovation [Policy output]{.fact-sub}
+- Organising the [3rd RESKILL Workshop](https://knowledge-for-policy.ec.europa.eu/event/reskill-workshop-2027_en) at the JRC (Seville, 27 Jan 2026) [Seville, 2026]{.fact-sub}
 :::
 
 :::
