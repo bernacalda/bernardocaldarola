@@ -16,7 +16,6 @@
 #   media:    press coverage, as outlet + url
 #   note:     a small line at the bottom, e.g. funding
 #
-# TODO: paste in the abstracts.
 
 # ---------------------------------------------------------------- Journal articles
 
@@ -96,7 +95,7 @@ Our results provide little support for the claim that teleworking reduces travel
   media:
     - {outlet: "Forbes", url: "https://www.forbes.com/sites/adigaskell/2022/07/07/is-hybrid-working-worse-for-the-planet/"}
     - {outlet: "The Telegraph", url: "https://www.telegraph.co.uk/news/2022/04/06/working-home-part-time-bad-environment/"}
-    - {outlet: "Daily Mail"}  # TODO: add the article link
+    - {outlet: "Daily Mail"}  
 
 # ---------------------------------------------------------------- Working papers
 
@@ -107,7 +106,7 @@ Our results provide little support for the claim that teleworking reduces travel
   venue: "UNU-MERIT Working Paper Series"
   details: "arXiv:2410.07906"
   themes: [Economic complexity, Structural change, Skills and labour]
-  abstract: "Abstract to be added."
+  abstract: "Structural change consists of industrial diversification towards more productive, knowledge intensive activities. However, changes in the productive structure bear inherent links with job creation and income distribution. In this paper, we investigate the consequences of structural change, defined in terms of labour shifts towards more complex industries, on employment growth, wage inequality, and functional distribution of income. The analysis is conducted for European countries using data on disaggregated industrial employment shares over the period 2010-2018. First, we identify patterns of industrial specialisation by validating a country-industry industrial employment matrix using a bipartite weighted configuration model (BiWCM). Secondly, we introduce a country-level measure of labour-weighted Fitness, which can be decomposed in such a way as to isolate a component that identifies the movement of labour towards more complex industries, which we define as structural change. Thirdly, we link structural change to i) employment growth, ii) wage inequality, and iii) labour share of the economy. The results indicate that our structural change measure is associated negatively with employment growth. However, it is also associated with lower income inequality. As countries move to more complex industries, they drop the least complex ones, so the (low-paid) jobs in the least complex sectors disappear. Finally, structural change predicts a higher labour ratio of the economy; however, this is likely to be due to the increase in salaries rather than by job creation."
   links:
     - {label: arXiv, url: "https://arxiv.org/abs/2410.07906"}
     - {label: Working paper, url: "https://cris.maastrichtuniversity.nl/en/publications/structural-change-employment-and-inequality-in-europe-an-economic/"}
@@ -118,7 +117,7 @@ Our results provide little support for the claim that teleworking reduces travel
   authors: "Single-authored"
   venue: "STEG Working Paper"
   themes: [Digital technologies, Structural change, Firms and innovation]
-  abstract: "Abstract to be added."
+  abstract: "Escaping the middle-income trap requires sustained productivity growth, yet in many lower-middle-income countries the vast majority of non-agricultural employment is concentrated in informal microenterprises. This paper asks whether the adoption of digital technologies can put these firms on an upgrading path. Combining a panel of Nigerian households (2010--2015) with GSMA mobile internet coverage maps, we construct a household-level measure of 3G adoption and identify its effects using geographical variation in lightning strikes alongside an event-study design. Mobile internet adoption raises the sales per worker of non-farming household enterprises (NFEs), showing that digital technologies can improve performance even at the bottom of the firm-size distribution. However, three findings qualify the scope for upgrading: gains are concentrated in low-productivity trade services, and adopting households become less likely to move into manufacturing; adoption does not reduce operating costs and does not induce firm entry, so that benefits accrue to incumbents; and firms shed household labour, which is reabsorbed in wage work outside the household. Digital connectivity thus upgrades informal firms from within, but does not by itself generate the reallocation towards higher-productivity activities, or the entry of new firms, that a transition out of the trap requires."
   links:
     - {label: Working paper, url: "https://steg.cepr.org/publications/mobile-internet-adoption-and-inclusive-structural-change-evidence-nigerian-non-farming"}
 
@@ -128,7 +127,8 @@ Our results provide little support for the claim that teleworking reduces travel
   authors: "Single-authored"
   venue: "LEM Papers Series, Sant’Anna School of Advanced Studies"
   themes: [Structural change, Economic complexity]
-  abstract: "Abstract to be added."
+  abstract: "	
+This paper uses the case of Ghana to unpack the role of the informal sector in the process of structural change. A structuralist view of structural change - framed as changes in the employment shares of different industries - is combined with the insight that countries strive to diversify towards more complex industries in pursuit of economic upgrading. The paper adopts and adapts the product space and complexity analytical frameworks to compare changes in the relative importance of industries across the trade, formal and informal sectors, over a ten-year period starting in 2003. To assess whether the Ghanaian labour force has moved towards more or less complex industries, the changes in relative shares of finely disaggregated industries are assessed against an employment-based industrial complexity index. The results indicate that Ghanaâ€™s export and formal sectors have moved towards more complex industries, although export specialisation has moved towards export of natural resources. While exports of manufactured goods have increased, employment in formal and informal manufacturing has contracted, although, in the former case, employment has relocated towards more complex manufacturing industries. In contrast, the informal sector has moved towards less complex activities. The results stress on the need to align the productive capabilities of the informal sector with the Ghana's productive structure in order to allow the participation of Ghanaian households to the process of structural transformation."
   links:
     - {label: Working paper, url: "https://www.lem.sssup.it/WPLem/2022-36.html"}
 
@@ -136,15 +136,35 @@ Our results provide little support for the claim that teleworking reduces travel
   title: "Informal and Formal Industrial Co-location and Structural Change in Ghana"
   authors: "with Tommaso Ciarli"
   themes: [Structural change, Regions]
-  abstract: "Abstract to be added."
-
-- type: wp
-  title: "Women’s Depletion Risk from Time Poverty: Evidence from Nepal, India, Rwanda and Tanzania"
-  authors: "with Amrita Saha and Deepta Chopra"
-  themes: [Gender and time use]
-  abstract: "Abstract to be added."
+  abstract: "Despite persistently high GDP growth rates, African countries have failed to transform their economies away from subsistence and low-productivity sectors, as labour has moved away from industry to less productive activities. This process, also known as premature de-industrialisation, has led to an increase in the size of the informal sector. While informal economic activities have often been attributed a passive role in the process of structural change, this paper aims to assess the potential contribution of informality to economic transformation by looking at its patterns of co-location and their relatedness, measured in terms of shared capabilities, input-output linkages and complexity differentials. The drivers of informal-formal co-location are analysed using the case of Ghana – a fast growing country where the informal sector employs around a half of the active non-agricultural workforce. Relying on a combination of data sources (the Integrated Business Establishments Survey 2014; the Ghana Labour Force Survey 2015 and the Eora Input-Output Tables of the Ghanaian domestic economy) we build an employment-based measure of informal, formal and informal-formal co-location of all industry pairs, which are explained in terms of their relatedness. The results show that informal activities agglomerate more than formal ones, and that they show a higher degree of relatedness and complementarity when compared to formal ones. However, evidence on informal-formal co-location shows that informal industries tend to be vertically integrated with unrelated formal ones, leaving little room for the flow of labour from informal to formal sectors."
 
 # ---------------------------------------------------------------- Work in progress
+
+- type: wip
+  title: "AI Capabilities and Labour Market Outcomes: Evidence from EU Regions"
+  authors: "with Maddalena Mula, Carla Sciarra, Dario Diodato, Enrique Macias-Fernandez, Pablo Casas, Lorenzo Napolitano and Giambattista Albora"
+  themes: [Digital technologies, Skills and labour, Regions]
+  
+- type: wip
+  title: "Industrial Policy and New Export Activities: The Role of Existing Capabilities"
+  authors: "with Alessio Bumbea, Emanuele Pugliese, Carla Sciarra, Dario Diodato, Lorenzo Napolitano and Giambattista Albora"
+  themes: [Digital technologies, Skills and labour, Regions]
+  
+- type: wip
+  title: "Causal Inference for Economic Complexity and Relatedness"
+  authors: "with Giacomo Lo Conte, Dario Diodato, Lorenzo Napolitano, Giambattista Albora and Carla Sciarra"
+  themes: [Economic complexity]
+  
+- type: wip
+  title: "The Adoption of 3D Printers and Its Impact on the Value Chain Positioning of French Firms"
+  authors: "with Luca Fontanelli, Kristina McElheran and Elena Verdolini"
+  themes: [Digital technologies, Firms and innovation]
+  
+- type: wip
+  title: "The In-Demand Skills Portfolios of UK and EU Regions and Their Impact on Productivity"
+  authors: "with Tommaso Ciarli, Alexandra Badort and Sidharth Rony"
+  themes: [Skills and labour, Regions]
+  note: "Funded by The Productivity Institute"
 
 - type: wip
   title: "The Hidden Innovators: Uncovering Capabilities and Industrial Dynamics in European Rural Areas"
@@ -157,33 +177,22 @@ Our results provide little support for the claim that teleworking reduces travel
   authors: "with Simone Sasso, Diego Chavarro and Tommaso Ciarli"
   themes: [Regions]
   note: "Funded by the JRC (Unit B.3)"
+  
+- type: wip
+  title: "Rethinking comparative advantage: a maximum-entropy approach to specialisation and diversification"
+  authors: "with Matteo Straccamore, Dario Mazzilli, Giambattista Albora, Andrea Tacchella, Carla Sciarra, Angelica Sbardella, Dario Diodato, Lorenzo Napolitano and Aurelio Patelli"
+  themes: [Economic Complexity]
+
+- type: wip
+  title: "Pathways of Regional Transformation in Europe: Complex Upgrading, Coherence and Employment Growth"
+  authors: "with Federico Musu, Angelica Sbardella and Emanuele Pugliese"
+  themes: [Regions, Economic Complexity, Sturctural Change]
 
 - type: wip
   title: "Measuring Innovation Capabilities for Sustainable Transitions in Rural Areas"
   authors: "with Tommaso Ciarli, Diego Chavarro, Simone Sasso and Michal Miedzinski"
   themes: [Regions, Sustainability]
   note: "Funded by the JRC (Unit B.3), SINATRA project"
-
-- type: wip
-  title: "AI Capabilities and Labour Market Outcomes: Evidence from EU Regions"
-  authors: "with Maddalena Mula, Carla Sciarra, Dario Diodato, Enrique Macias-Fernandez, Pablo Casas, Lorenzo Napolitano and Giambattista Albora"
-  themes: [Digital technologies, Skills and labour, Regions]
-
-- type: wip
-  title: "The In-Demand Skills Portfolios of UK and EU Regions and Their Impact on Productivity"
-  authors: "with Tommaso Ciarli, Alexandra Badort and Sidharth Rony"
-  themes: [Skills and labour, Regions]
-  note: "Funded by The Productivity Institute"
-
-- type: wip
-  title: "The Adoption of 3D Printers and Its Impact on the Value Chain Positioning of French Firms"
-  authors: "with Luca Fontanelli, Kristina McElheran and Elena Verdolini"
-  themes: [Digital technologies, Firms and innovation]
-
-- type: wip
-  title: "Related or Exposed? A Shift-Share Approach to Relatedness Density"
-  authors: "with Giacomo Lo Conte, Dario Diodato, Lorenzo Napolitano, Giambattista Albora and Carla Sciarra"
-  themes: [Economic complexity]
 
 - type: wip
   title: "Training Job Creators: Assessing the Impact of a Long-Term MBA for Entrepreneurs in Sub-Saharan Africa"
@@ -196,3 +205,13 @@ Our results provide little support for the claim that teleworking reduces travel
   authors: "with Marco Sanfilippo"
   themes: [Structural change, Economic complexity]
   note: "Funded by UN Trade and Development (UNCTAD)"
+
+- type: wip
+  title: "The social consequences of organized crime in Italy"
+  authors: "with Pierfrancesco Rolla, Daniele Guariso and Patricia Justino"
+  themes: [Gender and time use]
+
+- type: wip
+  title: "Women’s Depletion Risk from Time Poverty: Evidence from Nepal, India, Rwanda and Tanzania"
+  authors: "with Amrita Saha and Deepta Chopra"
+  themes: [Gender and time use]
