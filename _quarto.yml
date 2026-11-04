@@ -23,6 +23,8 @@ website:
         href: research.qmd
       - text: Policy
         href: policy.qmd
+      - text: News
+        href: news.qmd
       - text: CV
         href: files/cv_BC.pdf
   page-footer:

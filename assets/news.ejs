@@ -1,0 +1,38 @@
+<%
+// News page: items grouped under "Upcoming" and then by year, newest first.
+// Quarto sorts the items by date and passes each date as YYYY-MM-DD
+// (see `sort` and `date-format` in news.qmd). The output below is Markdown,
+// so links and emphasis written in data/news.yml are rendered.
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July",
+                "August", "September", "October", "November", "December"];
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+const groups = [];
+const undated = [];
+for (const item of items) {
+  if (!item.text) continue;
+  const text = String(item.text).trim().replace(/\s*\n\s*/g, " ");
+  const parts = String(item.date || "").split("-").map(Number);
+  const y = parts[0], m = parts[1] || 1, d = parts[2] || 1;
+  if (!y) { undated.push("- " + text); continue; }  // missing date: listed last
+  let key, label;
+  if (new Date(y, m - 1, d) > today) {
+    key = "Upcoming"; label = MONTHS[m - 1].slice(0, 3) + " " + y;
+  } else {
+    key = String(y); label = MONTHS[m - 1];
+  }
+  let g = groups[groups.length - 1];
+  if (!g || g.key !== key) { g = { key: key, rows: [] }; groups.push(g); }
+  g.rows.push("- [" + label + "]{.news-date} " + text);
+}
+if (undated.length) groups.push({ key: "Undated", rows: undated });
+
+let md = "";
+for (const g of groups) {
+  md += "## " + g.key + " {#news-" + g.key.toLowerCase() + " .news-year}\n\n" + g.rows.join("\n") + "\n\n";
+}
+%>
+::: {.news}
+<%- md %>
+:::

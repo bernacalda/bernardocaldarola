@@ -1,6 +1,13 @@
 ---
 pagetitle: "Bernardo Caldarola -- Personal Website"
 description: "Applied economist at the European Commission's Joint Research Centre, working on structural change, innovation, and economic complexity."
+listing:
+  - id: news-latest
+    contents: data/news.yml
+    template: assets/news-latest.ejs
+    sort: "date desc"
+    date-format: "YYYY-MM-DD"
+    max-items: 3
 ---
 
 ::: {.hero .column-body-outset}
@@ -27,7 +34,7 @@ I work in the Economic Complexity Team of the JRC's Industrial Strategy, Skills 
   <!-- TODO: replace the two placeholder links below with your GitHub and LinkedIn profiles -->
   <li><a href="https://scholar.google.com/citations?user=R3LlB_cAAAAJ&hl=en"><i class="bi bi-github" aria-hidden="true"></i>GitHub</a></li>
   <li><a href="https://scholar.google.com/citations?user=R3LlB_cAAAAJ&hl=en"><i class="bi bi-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
-  <li><a href="files/CV_Bernardo_Caldarola.pdf"><i class="bi bi-file-earmark-text" aria-hidden="true"></i>CV (PDF)</a></li>
+  <li><a href="files/cv_BC.pdf"><i class="bi bi-file-earmark-text" aria-hidden="true"></i>CV (PDF)</a></li>
 </ul>
 ```
 :::
@@ -57,9 +64,11 @@ I work in the Economic Complexity Team of the JRC's Industrial Strategy, Skills 
 ::: {}
 ## Latest
 
-- "Scaling Up to the Cloud", with Luca Fontanelli, is forthcoming in *Research Policy* [Journal article]{.fact-sub}
-- [Chapter](https://ec.europa.eu/assets/rtd/srip/2026/ec_rtd_srip-2026-report-chapter-10.pdf) published in the Science, Research and Innovation Performance (SRIP 2026) report of DG Research and Innovation [Policy output]{.fact-sub}
-- Organising the [3rd RESKILL Workshop](https://knowledge-for-policy.ec.europa.eu/event/reskill-workshop-2027_en) at the JRC (Seville, 27 Jan 2026) [Seville, 2026]{.fact-sub}
+<!-- The three newest items from data/news.yml appear here automatically. -->
+::: {#news-latest}
+:::
+
+[All news →](news.qmd){.facts-more}
 :::
 
 :::

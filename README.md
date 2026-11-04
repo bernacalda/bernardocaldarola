@@ -6,7 +6,8 @@ Personal academic website built with [Quarto](https://quarto.org).
 
 ```
 _quarto.yml            site settings: navbar, footer, theme
-index.qmd              home page (photo, bio, links, interests, education, latest news)
+index.qmd              home page (photo, bio, links, interests, education, 3 newest news items)
+news.qmd               news page (reads data/news.yml)
 research.qmd           research page (reads data/publications.yml)
 policy.qmd             policy page (reads data/policy.yml and data/consultancy.yml)
 teaching.qmd           teaching page (reads data/teaching.yml)
@@ -19,6 +20,21 @@ files/                 CV PDF
 ```
 
 ## Everyday updates
+
+**Add news.** Open `data/news.yml`, copy an entry to the top, and edit it. It appears on the
+News page and, if it is among the three newest, in the "Latest" box on the home page.
+Items are sorted by date, so the order in the file doesn't matter. Write the text in Markdown,
+after `text: >` on indented lines, so quotes and colons need no escaping:
+
+```yaml
+- date: 2026-11-04        # or 2026-11; only month and year are shown
+  text: >
+    Our paper "[Paper Title](https://doi.org/...)" with Co-Author is out in *Journal Name* 🎉
+```
+
+Items dated after the day you render go under "Upcoming"; after that date, the next render
+moves them into their year. To show more or fewer items on the home page, change
+`max-items` in the header of `index.qmd`.
 
 **Add a paper.** Open `data/publications.yml`, copy an existing entry, and edit it.
 `type: article`, `wp` or `wip` decides the section. Entries appear in the order written.
@@ -49,7 +65,7 @@ The header of the file lists every available field. New `themes` automatically b
 
 **Update the CV.** Replace `files/CV_Bernardo_Caldarola.pdf` with a new file of the same name.
 
-**Change the bio or "Latest" box.** Edit `index.qmd`.
+**Change the bio.** Edit `index.qmd`. (The "Latest" box fills itself from `data/news.yml`.)
 
 ## Preview and publish
 

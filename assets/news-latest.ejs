@@ -1,0 +1,15 @@
+<%
+// Home page "Latest" box: the newest items from data/news.yml
+// (how many is set by `max-items` in index.qmd). Output is Markdown.
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July",
+                "August", "September", "October", "November", "December"];
+let md = "";
+for (const item of items) {
+  const parts = String(item.date || "").split("-").map(Number);
+  if (!item.text || !parts[0]) continue;  // skip items without text or date
+  const label = MONTHS[(parts[1] || 1) - 1] + " " + parts[0];
+  const text = String(item.text).trim().replace(/\s*\n\s*/g, " ");
+  md += "- " + text + " [" + label + "]{.fact-sub}\n";
+}
+%>
+<%- md %>

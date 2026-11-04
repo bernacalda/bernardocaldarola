@@ -1,0 +1,13 @@
+---
+title: "News"
+subtitle: "Papers, talks, events and other updates."
+listing:
+  - id: news-list
+    contents: data/news.yml
+    template: assets/news.ejs
+    sort: "date desc"
+    date-format: "YYYY-MM-DD"
+---
+
+::: {#news-list}
+:::

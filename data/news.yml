@@ -1,0 +1,42 @@
+# News. The News page shows every item; the "Latest" box on the home page
+# shows the three newest.
+#
+# To add news, copy an entry, paste it at the top and edit it. Items are sorted
+# by date, newest first, so the order in this file doesn't matter.
+#
+# Fields:
+#   date:  2026-11-04, or just 2026-11 when the day doesn't matter.
+#          Only the month and year are shown. Items dated after the day you
+#          render the site are listed under "Upcoming"; once that date has
+#          passed, the next render moves them into their year.
+#   text:  a sentence or two in Markdown: [link text](https://...), *italics*,
+#          **bold**, emojis 🎉. Keep the `>` after `text:` and indent the
+#          lines below it: then quotes, colons and apostrophes need no escaping.
+
+- date: 2027-01-28
+  text: >
+    Co-organising the [3rd RESKILL Workshop](https://knowledge-for-policy.ec.europa.eu/event/reskill-workshop-2027_en)
+    on skills, jobs and policies, at the JRC in Seville on 28–29 January 2027.
+
+- date: 2026-10-01
+  text: >
+    Our chapter on the EU's capabilities in advanced materials is out in DG Research and Innovation's
+    [Science, Research and Innovation Performance report (SRIP 2026)](https://ec.europa.eu/assets/rtd/srip/2026/ec_rtd_srip-2026-report-chapter-10.pdf).
+
+- date: 2026-10 # TODO: change to the month the paper was accepted
+  text: >
+    “[Scaling Up to the Cloud](https://arxiv.org/pdf/2409.17035)”, with Luca Fontanelli,
+    is forthcoming in *Research Policy*.
+
+- date: 2026-06-22
+  text: >
+    Presented my work at the Regional Studies Association Conference in Gothenburg
+    and at the International Economic Association World Congress in Belgrade.
+
+- date: 2026-05-27
+  text: >
+    Presented at the Cedefop and Eurostat research conference in Thessaloniki.
+
+- date: 2026-01-28
+  text: >
+    Presented at the 8th Geography of Innovation Conference (GEOINNO 2026) in Budapest.

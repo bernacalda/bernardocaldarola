@@ -337,6 +337,51 @@ main h2 {
   .tl-place { grid-column: 2; text-align: left; }
 }
 
+// ---------- News (news.qmd and the home-page "Latest" box) ----------
+.news h2.news-year {
+  font-size: 1.3rem;
+  font-variant-numeric: lining-nums;
+  margin-top: 1.75rem;
+  margin-bottom: 0.15rem;
+}
+.news > section:first-child h2.news-year { margin-top: 0.5rem; }
+.news ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5rem;
+}
+// The date sits in a left gutter, level with the first line of the item.
+// Its line-height is the same length as the text's, so the baselines match.
+.news li {
+  --news-gutter: 7rem;
+  position: relative;
+  padding: 0.75rem 0 0.75rem var(--news-gutter);
+  border-top: 1px solid var(--bc-rule);
+  line-height: 1.5;
+  max-width: calc(66ch + var(--news-gutter));
+  margin: 0;
+}
+.news li:first-child { border-top: none; }
+.news-date {
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  line-height: 1.5rem;
+  color: var(--bc-muted);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+@media (max-width: 575.98px) {
+  .news li { padding-left: 0; }
+  .news-date { position: static; display: block; }
+}
+
+.facts .quarto-listing { padding-bottom: 0; }
+.facts .quarto-listing ul { margin-bottom: 0.3rem; }
+.facts-more { font-size: 0.92rem; }
+
 // ---------- Misc ----------
 .small-print { font-size: 0.9rem; color: var(--bc-muted); }
 .referee-list { font-size: 0.93rem; line-height: 1.65; max-width: 70ch; }
