@@ -16,7 +16,7 @@
 #   media:    press coverage, as outlet + url
 #   note:     a small line at the bottom, e.g. funding
 #
-# TODO: replace every url: "#" with the real link and paste in the abstracts.
+# TODO: paste in the abstracts.
 
 # ---------------------------------------------------------------- Journal articles
 
@@ -94,7 +94,7 @@ We employ a path analysis methodology using data from the English National Trave
   media:
     - {outlet: "Forbes", url: "https://www.forbes.com/sites/adigaskell/2022/07/07/is-hybrid-working-worse-for-the-planet/"}
     - {outlet: "The Telegraph", url: "https://www.telegraph.co.uk/news/2022/04/06/working-home-part-time-bad-environment/"}
-    - {outlet: "Daily Mail", url: "#"}
+    - {outlet: "Daily Mail"}  # TODO: add the article link
 
 # ---------------------------------------------------------------- Working papers
 
@@ -108,27 +108,27 @@ We employ a path analysis methodology using data from the English National Trave
   abstract: "Abstract to be added."
   links:
     - {label: arXiv, url: "https://arxiv.org/abs/2410.07906"}
-    - {label: Working paper, url: "#"}
+    - {label: Working paper, url: "https://cris.maastrichtuniversity.nl/en/publications/structural-change-employment-and-inequality-in-europe-an-economic/"}
 
 - type: wp
   title: "Mobile Internet Adoption and Inclusive Structural Change: Evidence from Nigerian Non-Farming Enterprises"
-  url: "#"
+  url: "https://steg.cepr.org/publications/mobile-internet-adoption-and-inclusive-structural-change-evidence-nigerian-non-farming"
   authors: "Single-authored"
   venue: "STEG Working Paper"
   themes: [Digital technologies, Structural change, Firms and innovation]
   abstract: "Abstract to be added."
   links:
-    - {label: Working paper, url: "#"}
+    - {label: Working paper, url: "https://steg.cepr.org/publications/mobile-internet-adoption-and-inclusive-structural-change-evidence-nigerian-non-farming"}
 
 - type: wp
   title: "Structural Change(s) in Ghana: A Comparison between the Export, Formal, and Informal Sectors"
-  url: "#"
+  url: "https://www.lem.sssup.it/WPLem/2022-36.html"
   authors: "Single-authored"
   venue: "LEM Papers Series, Sant’Anna School of Advanced Studies"
   themes: [Structural change, Economic complexity]
   abstract: "Abstract to be added."
   links:
-    - {label: Working paper, url: "#"}
+    - {label: Working paper, url: "https://www.lem.sssup.it/WPLem/2022-36.html"}
 
 - type: wp
   title: "Informal and Formal Industrial Co-location and Structural Change in Ghana"

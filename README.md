@@ -100,8 +100,7 @@ to this folder, add `CNAME` to `resources` in `_quarto.yml`, and follow GitHub's
 
 ## Still to do
 
-- Replace every `url: "#"` in `data/publications.yml` and `data/policy.yml` with real links.
 - Paste abstracts over the `Abstract to be added.` placeholders (or delete the `abstract:` line to hide the button).
 - Replace the GitHub and LinkedIn placeholder links in `index.qmd`.
-- Add the media coverage links (Forbes, The Telegraph, Daily Mail, Nemo Kennislink).
+- Add the Daily Mail link to the teleworking paper in `data/publications.yml`.
 - Consider a version of the CV PDF without your phone number and office address.
