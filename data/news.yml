@@ -13,10 +13,14 @@
 #          **bold**, emojis 🎉. Keep the `>` after `text:` and indent the
 #          lines below it: then quotes, colons and apostrophes need no escaping.
 
+# ---------------------------------------------------------------- 2027
+
 - date: 2027-01-28
   text: >
     Co-organising the [3rd RESKILL Workshop](https://knowledge-for-policy.ec.europa.eu/event/reskill-workshop-2027_en)
     on skills, jobs and policies, at the JRC in Seville on 28–29 January 2027.
+
+# ---------------------------------------------------------------- 2026
 
 - date: 2026-10-01
   text: >
@@ -37,6 +41,177 @@
   text: >
     Presented at the Cedefop and Eurostat research conference in Thessaloniki.
 
+- date: 2026-03-09
+  text: >
+    Co-authored a JRC Science for Policy Brief on
+    [Chinese cars in the EU: current trends and driving factors](https://publications.jrc.ec.europa.eu/repository/handle/JRC144402).
+
 - date: 2026-01-28
   text: >
     Presented at the 8th Geography of Innovation Conference (GEOINNO 2026) in Budapest.
+
+# ---------------------------------------------------------------- 2025
+
+- date: 2025-12-10
+  text: >
+    Presented at the 13th Conference on Micro Evidence on Innovation and Development (MEIDE), online.
+
+- date: 2025-12-03
+  text: >
+    Our JRC Science for Policy Report
+    [Path to innovation](https://publications.jrc.ec.europa.eu/repository/handle/JRC144431)
+    uses economic complexity to find where the EU can strengthen its technological
+    leadership in advanced materials.
+
+- date: 2025-12-01
+  text: >
+    Our JRC Science for Policy Brief summarising CONCORDi 2025 is out:
+    [Strategic technologies and industrial policies for competitiveness and sustainability](https://publications.jrc.ec.europa.eu/repository/handle/JRC144677).
+
+- date: 2025-11-06
+  text: >
+    Co-organised the 2nd RESKILL Workshop,
+    [*Green and Digital Transformations: Skills, Jobs and Policy*](https://www.unife.it/it/eventi/2025/novembre/programme_ferraraworkshop.pdf),
+    at the University of Ferrara.
+
+- date: 2025-10 # online by 13 Oct 2025, the date of the blog post; change if you know the month
+  text: >
+    “[3G Internet Diffusion and Secondary Education Attainment](https://onlinelibrary.wiley.com/doi/full/10.1111/rode.70031)”,
+    with Trang Thi Pham, is out in *Review of Development Economics*. Trang explains the findings in a
+    [UNU-MERIT blog post](https://unu.edu/merit/blog-post/when-internet-meets-education-lessons-vietnams-3g-rollout-promise-and-paradox).
+
+- date: 2025-09-24
+  text: >
+    Co-organised the 10th European Conference on Corporate R&D and Innovation
+    ([CONCORDi 2025](https://iri.jrc.ec.europa.eu/index.php/concordi-2025)) at the JRC in Seville.
+
+- date: 2025-09-17
+  text: >
+    Presented at the Economics of New Technology and Global Change (ENTEG) workshop in Milan.
+
+- date: 2025-07-31
+  text: >
+    New JRC Science for Policy Brief with Giambattista Albora and Robert Marschinski:
+    [EU competitiveness in net-zero technologies: insights from patents and economic complexity](https://publications.jrc.ec.europa.eu/repository/handle/JRC143278).
+
+- date: 2025-06-09
+  text: >
+    Co-organised the 3rd Economic Fitness and Complexity Summer School at the Enrico Fermi Research Centre in Rome.
+
+- date: 2025-05-05
+  text: >
+    Presented at the Regional Studies Association Conference in Porto.
+
+- date: 2025-05
+  text: >
+    New JRC Science for Policy Brief:
+    [Global value chain analysis of the EU automotive sector under the lens of economic complexity](https://publications.jrc.ec.europa.eu/repository/handle/JRC142111).
+
+# ---------------------------------------------------------------- 2024
+
+- date: 2024-10
+  text: >
+    New working paper with Dario Mazzilli, Aurelio Patelli and Angelica Sbardella:
+    [Structural change, employment, and inequality in Europe: an economic complexity approach](https://arxiv.org/abs/2410.07906).
+
+- date: 2024-09-01
+  text: >
+    Joined the European Commission's Joint Research Centre in Seville as an Economic Complexity Analyst,
+    in the Industrial Strategy, Skills and Technology Transfer unit.
+
+- date: 2024-09
+  text: >
+    New working paper with Luca Fontanelli:
+    [Scaling up to the cloud: cloud technology use and growth rates in small and large firms](https://arxiv.org/abs/2409.17035).
+
+- date: 2024-07-08
+  text: >
+    Co-organised the 2nd Economic Fitness and Complexity Summer School at UNU-MERIT in Maastricht.
+
+- date: 2024-06-13
+  text: >
+    Presented at the International Schumpeter Society Conference in Manchester
+    and at the DRUID Conference in Nice.
+
+- date: 2024-06 # TODO: check the month (volume 5, issue 2)
+  text: >
+    Our review “[Economic complexity and the sustainability transition](https://iopscience.iop.org/article/10.1088/2632-072X/ad4f3d/meta)”,
+    with Dario Mazzilli, Lorenzo Napolitano, Aurelio Patelli and Angelica Sbardella,
+    is out in *Journal of Physics: Complexity*.
+
+- date: 2024-05-23
+  text: >
+    “[Does teleworking encourage longer commutes?](https://www.sciencedirect.com/science/article/pii/S2214367X24000851)”,
+    with Steve Sorrell, is out in *Travel Behaviour and Society*.
+
+- date: 2024-05-15
+  text: >
+    Presented at the ESCoE Conference on Economic Measurement in Gothenburg.
+
+- date: 2024-04 # TODO: check the month the fellowship started (it ran until Sep 2025)
+  text: >
+    Awarded an 18-month individual fellowship by The Productivity Institute
+    to study skills demand and regional productivity.
+
+- date: 2024-04-18
+  text: >
+    Presented at the 13th Dutch Development Economics Workshop (DuDE) in Utrecht.
+
+- date: 2024-03
+  text: >
+    Started a consultancy with UN Trade and Development (UNCTAD), analysing geospatial data
+    to inform Venezuela's industrial policy and diversification strategies.
+
+# ---------------------------------------------------------------- 2023
+
+- date: 2023-12
+  text: >
+    “[Mobile internet, skills and structural transformation in Rwanda](https://www.sciencedirect.com/science/article/pii/S0048733323001555)”,
+    with Marco Grazzi, Martina Occelli and Marco Sanfilippo, is out in *Research Policy*.
+
+- date: 2023-11-08
+  text: >
+    Panellist on development and inequality at *On the Shoulders of the Giant(s): Charting the Future
+    of Evolutionary Economics*, a workshop in honour of Giovanni Dosi at the Sant'Anna School in Pisa.
+
+- date: 2023-10-24
+  text: >
+    Presented at the 9th European Conference on Corporate R&D and Innovation (CONCORDi) in Seville.
+
+- date: 2023-09-04
+  text: >
+    Presented at the CMD30–FisMat conference in Milan.
+
+- date: 2023-09-01
+  text: >
+    Joined UNU-MERIT and Maastricht University as a research fellow
+    in the Economics of Innovation and New Technologies unit.
+
+- date: 2023-09-01
+  text: >
+    Started advising the JRC's SINATRA exploratory research activity
+    on sustainable innovation and transition pathways in rural areas.
+
+- date: 2023-08-28
+  text: >
+    Presented at the 62nd European Regional Science Association (ERSA) Congress in Alicante.
+
+- date: 2023-06-10
+  text: >
+    Presented at the DRUID Conference in Lisbon.
+
+- date: 2023-06-05
+  text: >
+    Co-organised the 1st Economic Fitness and Complexity Spring School in Rome, with the
+    Enrico Fermi Research Centre, UNU-MERIT and the Young Scholars Initiative.
+
+- date: 2023-03
+  text: >
+    Started a consultancy with the Catholic University of the Sacred Heart (Milan) and ANSEB
+    on the food voucher sector in Italy.
+
+- date: 2023-01
+  text: >
+    Completed my PhD in Science and Technology Policy Studies at SPRU, University of Sussex, with the thesis
+    *Drivers and Impacts of Structural Change in Sub-Saharan Africa: Evidence from Households and Firms*,
+    examined by Margaret McMillan and Raphie Kaplinsky.
