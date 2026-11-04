@@ -3,12 +3,15 @@
 // (how many is set by `max-items` in index.qmd). Output is Markdown.
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July",
                 "August", "September", "October", "November", "December"];
+// Some emoji (e.g. the speaking head) show as a plain black-and-white symbol
+// unless followed by the emoji-style selector U+FE0F; add it where missing.
+const EMOJI_STYLE = /(?=[\u{1F000}-\u{1FAFF}])\P{Emoji_Presentation}(?![\u{FE0E}\u{FE0F}])/gu;
 let md = "";
 for (const item of items) {
   const parts = String(item.date || "").split("-").map(Number);
   if (!item.text || !parts[0]) continue;  // skip items without text or date
   const label = MONTHS[(parts[1] || 1) - 1] + " " + parts[0];
-  const text = String(item.text).trim().replace(/\s*\n\s*/g, " ");
+  const text = String(item.text).trim().replace(/\s*\n\s*/g, " ").replace(EMOJI_STYLE, "$&\uFE0F");
   md += "- " + text + " [" + label + "]{.fact-sub}\n";
 }
 %>
