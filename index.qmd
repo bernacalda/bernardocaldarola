@@ -1,5 +1,5 @@
 ---
-pagetitle: "Bernardo Caldarola"
+pagetitle: "Bernardo Caldarola -- Personal Website"
 description: "Applied economist at the European Commission's Joint Research Centre, working on structural change, innovation, and economic complexity."
 ---
 
