@@ -1,6 +1,6 @@
 ---
 title: "Policy"
-subtitle: "Science for Policy reports and briefs written at the European Commission's Joint Research Centre, and consultancy for international organisations."
+subtitle: "Policy reports and briefs written at the European Commission's Joint Research Centre, and consultancy for international organisations."
 include-after-body: assets/pubs.html
 listing:
   - id: policy-list
