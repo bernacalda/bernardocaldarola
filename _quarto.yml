@@ -8,7 +8,6 @@ project:
 website:
   title: "Bernardo Caldarola"
   description: "Applied economist working on structural change, innovation, and economic complexity."
-  # Set this once the site is live (e.g. https://<username>.github.io) so social previews work.
   image: images/headshot-square.jpg
   favicon: images/mark.svg
   open-graph: true
@@ -25,7 +24,7 @@ website:
       - text: Policy
         href: policy.qmd
       - text: CV
-        href: files/CV_BC.pdf
+        href: files/cv_BC.pdf
   page-footer:
     left: "© 2026 Bernardo Caldarola. Views expressed here are my own and do not necessarily reflect those of the European Commission."
     right: "Built with [Quarto](https://quarto.org)"

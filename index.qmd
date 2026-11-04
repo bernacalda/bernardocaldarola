@@ -1,6 +1,6 @@
 ---
 pagetitle: "Bernardo Caldarola"
-description: "Applied economist at the European Commission's Joint Research Centre, working on structural change, technology adoption and economic complexity."
+description: "Applied economist at the European Commission's Joint Research Centre, working on structural change, innovation, and economic complexity."
 ---
 
 ::: {.hero .column-body-outset}
