@@ -21,15 +21,15 @@
 
 - type: article
   title: "Scaling Up to the Cloud: Cloud Technology Use and Growth Rates in Small and Large Firms"
-  url: "https://arxiv.org/pdf/2409.17035"
-  status: "Forthcoming"
+  url: "https://www.sciencedirect.com/science/article/pii/S0048733326002350"
   authors: "with Luca Fontanelli"
   venue: "Research Policy"
-  details: "forthcoming"
+  details: "2026"
   themes: [Digital technologies, Firms and innovation]
   abstract: "Using a unique combination of micro-level data sources on French firms, this paper explores the relationship between cloud technologies and firm growth. Whereas digital technologies have generally been found to disproportionately benefit larger firms, we document that cloud use is positively associated with firm growth, and this association is significantly stronger for smaller firms. Distinguishing cloud services between Infrastructure-as-a-Service (IaaS) and Software-as-a-Service (SaaS), we find that the size-contingent association is driven entirely by SaaS. Crucially, this small firm advantage is conditional on complementary assets as it emerges only among firms endowed with ICT capabilities. Our results are robust across a range of specifications, including instrumental variable strategies. SaaS cloud use is further associated with internal workforce reorganisation toward ICT, managerial, and intermediate occupations and away from manual and clerical ones, particularly among smaller firms, consistent with SaaS cloud operating as an organisational innovation enabling digitalisation and scaling. Finally, we present descriptive sectoral evidence of a negative correlation between cloud and market concentration."
   links:
-    - {label: Paper, url: "https://arxiv.org/pdf/2409.17035"}
+    - {label: Paper, url: "https://www.sciencedirect.com/science/article/pii/S0048733326002350"}
+    - {label: Working paper, url: "https://arxiv.org/abs/2409.17035"}
 
 - type: article
   title: "3G Internet Diffusion and Secondary Education Attainment: Evidence of Opportunity Cost in Viet Nam"
